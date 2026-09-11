@@ -4,6 +4,10 @@
 # working directory name when running `supabase init`.
 project_id = "jlf-reads"
 
+[functions.sync-recommendation]
+# Authentication is enforced by the custom x-jlf-sync-secret header check inside the function.
+verify_jwt = false
+
 [api]
 enabled = true
 # Port to use for the API URL.

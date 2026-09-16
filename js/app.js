@@ -1,4 +1,5 @@
-import { loadRecommendations, MEDIA_TYPES } from "./data.js";
+import { loadRecommendations } from "./recommendations-data.js";
+import { MEDIA_TYPES } from "./data.js";
 import { resolveCover } from "./covers.js";
 
 const TYPE_LABELS = { book: "Book", movie: "Film", article: "Article", podcast: "Podcast" };
